@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CRUD App</title>
+</head>
+<body>
+    <main>
+        <form method="POST">
+        <label>Name:</label>
+        <input type="text" id="name-input">
+        <button id="add-name-btn">Add NAme</button>
+    </form>
+
+        <br><br><br>
+        <div>
+            <input type="text" placeholder="Search By Name.." id="Search-input">
+            <button id="Search-btn">Search </button>
+        </div>
+
+        <table>
+            <thead id="table">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date added</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
